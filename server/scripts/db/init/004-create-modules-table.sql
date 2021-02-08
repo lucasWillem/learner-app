@@ -1,0 +1,4 @@
+CREATE TABLE modules (
+  id SMALLINT PRIMARY KEY,
+  name TEXT NOT NULL
+);

@@ -1,0 +1,6 @@
+CREATE TABLE learners (
+  id UUID PRIMARY KEY,
+  name TEXT NOT NULL,
+  username CITEXT NOT NULL UNIQUE,
+  last_sync TIMESTAMPTZ
+);
